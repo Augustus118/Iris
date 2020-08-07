@@ -6,11 +6,10 @@ Eu como usuario Administrador
 Quero editar erps cadastrados
 
 
-
 Contexto: edicao de erps cadastrados no Portal Iris
 		Dado que eu esteja logado no Portal Iris
 
-Cenario: Realizar edicao de erps cadastrados - edicao com Sucesso
+Cenario: Realizar edicao de erps cadastrados - edicao com sucesso
 		E meu perfil seja Administrador
 		E tenha realizado uma pesquisa
 		Quando eu selecionar um erp para edicao
@@ -19,7 +18,7 @@ Cenario: Realizar edicao de erps cadastrados - edicao com Sucesso
 		Entao verei uma mensagem de sucesso
 		E o registro devidamente editado
 
-Cenario: Realizar edicao de erps cadastrados - edicao com Sucesso sem Data Fim
+Cenario: Realizar edicao de erps cadastrados - edicao com sucesso sem Data Fim
 		E meu perfil seja Administrador
 		E tenha realizado uma pesquisa
 		Quando eu selecionar um erp para edicao
