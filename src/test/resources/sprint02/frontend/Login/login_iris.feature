@@ -2,8 +2,7 @@
 
 Funcionalidade: Realizar login no portal iris
 para validar a autenticação do portal iris 
-Como usuario do portal quero logar e validar as permissões de administrador, gestor ,analista de contas a pagar , analista de contas a receber
- , aprovadore segurança TI
+Como usuario do portal quero logar e validar as permissões de administrador, gestor, analista de contas a pagar , analista de contas a receber, aprovador
 
 Contexto: possibilidade de acessar o portal iris
 Dado que o usuário possa acessar a tela de login do portal iris
