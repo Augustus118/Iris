@@ -16,28 +16,28 @@ Cenario: Realizar inativacao de erps cadastrados - Perfil Administrador
 		E tenha realizado uma pesquisa
 		Quando eu selecionar um erp
 		E concluir sua inativacao
-		Entao verei uma mensagem de sucesso
+		Entao verei uma mensagem de sucesso <mensagem_sucesso>
 
-Cenario: Realizar consulta de erps cadastrados - Perfil Gestor
+Cenario: Realizar inativacao de erps cadastrados - Perfil Gestor
 		E meu perfil seja Analista
 		E tenha realizado uma pesquisa
 		Quando eu selecionar um erp
 		Entao verei a inativacao desabilitada
 
-Cenario: Realizar consulta de erps cadastrados - Perfil Analista de Contas a Receber
+Cenario: Realizar inativacao de erps cadastrados - Perfil Analista de Contas a Receber
 		E meu perfil seja Analista de Contas a Receber
 		E tenha realizado uma pesquisa
 		Quando eu selecionar um erp
 		Entao verei a inativacao desabilitada
 
-Cenario: Realizar consulta de erps cadastrados - Perfil Analista de Contas a Pagar
+Cenario: Realizar inativacao de erps cadastrados - Perfil Analista de Contas a Pagar
 		E meu perfil seja Analista de Contas a Pagar
 		E tenha realizado uma pesquisa
 		Quando eu selecionar um erp
 		Entao verei a inativacao desabilitada
 
-Cenario: Realizar consulta de erps cadastrados - Perfil Seguranca da Informacao
-		E meu perfil seja Analista de Seguranca da Informacao
+Cenario: Realizar inativacao de erps cadastrados - Perfil Aprovador
+		E meu perfil seja Aprovador
 		E tenha realizado uma pesquisa
 		Quando eu selecionar um erp
 		Entao verei a inativacao desabilitada

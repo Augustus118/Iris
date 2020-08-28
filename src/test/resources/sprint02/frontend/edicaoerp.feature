@@ -15,7 +15,7 @@ Cenario: Realizar edicao de erps cadastrados - edicao com sucesso
 		Quando eu selecionar um erp para edicao
 		E preencher todos os campos disponiveis na tela
 		E concluir a edicao
-		Entao verei uma mensagem de sucesso
+		Entao verei uma mensagem de sucesso <mensagem_sucesso>
 		E o registro devidamente editado
 
 Cenario: Realizar edicao de erps cadastrados - edicao com sucesso sem Data Fim
@@ -24,7 +24,7 @@ Cenario: Realizar edicao de erps cadastrados - edicao com sucesso sem Data Fim
 		Quando eu selecionar um erp para edicao
 		E preencher todos os campos disponiveis na tela sem Data Fim
 		E concluir a edicao
-		Entao verei uma mensagem de sucesso
+		Entao verei uma mensagem de sucesso <mensagem_sucesso>
 		E o registro devidamente editado
 
 Cenario: Realizar edicao de erps cadastrados - edicao sem Descricao
@@ -33,15 +33,15 @@ Cenario: Realizar edicao de erps cadastrados - edicao sem Descricao
 		Quando eu selecionar um erp para edicao
 		E preencher todos os campos disponiveis na tela sem descricao
 		E concluir a edicao
-		Entao verei uma mensagem de erro A
+		Entao verei uma mensagem de erro <mensagem_Erro_A>
 
 Cenario: Realizar edicao de erps cadastrados - edicao sem Data Inicio
 		E meu perfil seja Administrador
 		E tenha realizado uma pesquisa
 		Quando eu selecionar um erp para edicao
-		E preencher todos os campos disponiveis na tela sem descricao
+		E preencher todos os campos disponiveis na tela sem data inicio
 		E concluir a edicao
-		Entao verei uma mensagem de erro B
+		Entao verei uma mensagem de erro <mensagem_Erro_B>
 
 Cenario: Realizar edicao de erps cadastrados - edicao sem FileSystem
 		E meu perfil seja Administrador
@@ -49,7 +49,7 @@ Cenario: Realizar edicao de erps cadastrados - edicao sem FileSystem
 		Quando eu selecionar um erp para edicao
 		E preencher todos os campos disponiveis na tela sem FileSystem
 		E concluir a edicao
-		Entao verei uma mensagem de erro C
+		Entao verei uma mensagem de erro <mensagem_Erro_C>
 
 Cenario: Realizar edicao de erps cadastrados - edicao com Perfil Analista de Contas a Pagar
 		E meu perfil seja Analista de Contas a Pagar
@@ -68,3 +68,9 @@ Cenario: Realizar edicao de erps cadastrados - edicao com Perfil Gestor
 		E tenha realizado uma pesquisa
 		Quando eu selecionar um erp para edicao
 		Entao verei a edicao desabilitada
+		
+Cenario: Realizar edicao de erps cadastrados - edicao com Perfil Aprovador
+		E meu perfil seja Aprovador
+		E tenha realizado uma pesquisa
+		Quando eu selecionar um erp para edicao
+		Entao verei a edicao desabilitada		
