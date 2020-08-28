@@ -14,24 +14,17 @@ Cenario: Realizar cadastro de erp - Checar Base de dados
 		E esteja na secao Gestao erp
 		Quando eu preencher todos os campos disponiveis na tela
 		E concluir o cadastro
-		Entao verei a mensagem
+		Entao verei a mensagem <mensagem_sucesso>
 		E meu cadastro logado na base de dados
-
-Cenario: Realizar cadastro de erp - Checar Dashboards
-		E meu perfil seja Administrador
-		E esteja na secao Gestao erp
-		Quando eu preencher todos os campos disponiveis na tela
-		E concluir o cadastro
-		Entao verei a mensagem
-		E nao estara dispon�vel para Dashboards do Portal Iris
+		E nao estara dispon�vel para os Dashboards do Portal Iris
 
 Cenario: Realizar cadastro de erp - Nao preenchimento Data Fim
 		E meu perfil seja Administrador
 		E esteja na secao Gestao erp
 		Quando eu preencher todos os campos disponiveis na tela
-		E nao preencher o campo Data Fim
+		E nao preencher o campo <Data_Fim>
 		E concluir o cadastro
-		Entao verei a mensagem
+		Entao verei a mensagem <mensagem_datafim>
 		E meu cadastro logado na base de dados
 
 Cenario: Realizar cadastro de erp - Perfil Analista Contas a Pagar
@@ -53,9 +46,9 @@ Cenario: Realizar cadastro de erp - Nao preenchimento ID
 		E meu perfil seja Administrador
 		E esteja na secao Gestao erp
 		Quando eu preencher todos os campos disponiveis na tela
-		E nao preencher o campo ID
+		E nao preencher o campo <ID>
 		E concluir o cadastro
-		Entao verei a mensagem de erro A
+		Entao verei a mensagem de erro <mensagem_erro_A>
 		E meu cadastro nao estara logado na base de dados
 
 Cenario: Realizar cadastro de erp - Nao preenchimento Descricao
@@ -64,7 +57,7 @@ Cenario: Realizar cadastro de erp - Nao preenchimento Descricao
 		Quando eu preencher todos os campos disponiveis na tela
 		E nao preencher o campo Descricao
 		E concluir o cadastro
-		Entao verei a mensagem de erro B
+		Entao verei a mensagem de erro <mensagem_erro_B>
 		E meu cadastro nao estara logado na base de dados
 
 Cenario: Realizar cadastro de erp - Nao preenchimento FileSystems Integracao
@@ -73,7 +66,7 @@ Cenario: Realizar cadastro de erp - Nao preenchimento FileSystems Integracao
 		Quando eu preencher todos os campos disponiveis na tela
 		E nao preencher o campo FileSystems Integracao
 		E concluir o cadastro
-		Entao verei a mensagem de erro C
+		Entao verei a mensagem de erro <mensagem_erro_C>
 		E meu cadastro nao estara logado na base de dados
 
 Cenario: Realizar cadastro de erp - Nao preenchimento Data Inicio
@@ -82,7 +75,7 @@ Cenario: Realizar cadastro de erp - Nao preenchimento Data Inicio
 		Quando eu preencher todos os campos disponiveis na tela
 		E nao preencher o campo Data Inicio
 		E concluir o cadastro
-		Entao verei a mensagem de erro D
+		Entao verei a mensagem de erro <mensagem_erro_D>
 		E meu cadastro nao estara logado na base de dados
 
 Cenario: Realizar cadastro de erp - Data Inicio menor que a Data atual
@@ -91,7 +84,7 @@ Cenario: Realizar cadastro de erp - Data Inicio menor que a Data atual
 		Quando eu preencher todos os campos disponiveis na tela
 		E o campo Data Inicio com uma data menor que a Data atual
 		E concluir o cadastro
-		Entao verei a mensagem de erro
+		Entao verei a mensagem de erro <mensagem_erro_E>
 		E meu cadastro nao estara logado na base de dados
 
 Cenario: Realizar cadastro de erp - Data Final menor que a Data atual
@@ -100,7 +93,7 @@ Cenario: Realizar cadastro de erp - Data Final menor que a Data atual
 		Quando eu preencher todos os campos disponiveis na tela
 		E o campo Data Final com uma data menor que a Data atual
 		E concluir o cadastro
-		Entao verei a mensagem de erro F
+		Entao verei a mensagem de erro <mensagem_erro_F>
 		E meu cadastro nao estara logado na base de dados
 
 Cenario: Realizar cadastro de erp - Data Final maior que Data Inicio
@@ -109,7 +102,7 @@ Cenario: Realizar cadastro de erp - Data Final maior que Data Inicio
 		Quando eu preencher todos os campos disponiveis na tela
 		E o campo Data Final com uma data maior que Data Inicio
 		E concluir o cadastro
-		Entao verei a mensagem de erro G
+		Entao verei a mensagem de erro <mensagem_erro_G>
 		E meu cadastro nao estara logado na base de dados
 
 
