@@ -2,39 +2,59 @@
 
 Funcionalidade: gestao de consulta de erps cadastrados
 Como usuario Administrador
-Quero consultar erps cadastrados
+Quero listar erps cadastrados
 
 
 Contexto: Consulta de erps cadastrados no Portal Iris
-		Dado que eu esteja logado no Portal Iris
+		Dado que eu acesse a uri <api>
 
 
 Cenario: Realizar consulta de erps cadastrados - Perfil Administrador
-		E meu perfil seja Administrador
-		E eu esteja na area de gestao de erps
-		Quando eu clicar na lista de erps
-		Entao verei todos os erps cadastrados
+		E tenha as configurações de Header <config_header>
+		E tenha perfil Administrador
+		Quando eu solicitar a lista de erps através do método <método_get>
+		E resgatar o token <token>
+		Entao retornará o status <codigo_status>
+		E exibirá a mensagem de sucesso <mensagem_sucesso_2>
+		E listará os erps cadastrados 
+		
 		
 Cenario: Realizar consulta de erps cadastrados - Perfil Gestor
-		E meu perfil seja Gestor
-		E eu esteja na area de gestao de erps
-		Quando eu clicar na lista de erps
-		Entao verei todos os erps cadastrados
-
+		E tenha as configurações de Header <config_header>
+		E tenha perfil Gestor
+		Quando eu solicitar a lista de erps através do método <método_get>
+		E resgatar o token <token>
+		Entao retornará o status <codigo_status>
+		E exibirá a mensagem de sucesso <mensagem_sucesso_2>
+		E listará os erps cadastrados 
+		
+		
 Cenario: Realizar consulta de erps cadastrados - Perfil Analista de Contas a Receber
-		E meu perfil seja Analista de Contas a Receber
-		E eu esteja na area de gestao de erps
-		Quando eu clicar na lista de erps
-		Entao verei todos os erps cadastrados
+		E tenha as configurações de Header <config_header>
+		E tenha perfil Analista de Contas a Receber
+		Quando eu solicitar a lista de erps através do método <método_get>
+		E resgatar o token <token>
+		Entao retornará o status <codigo_status>
+		E exibirá a mensagem de sucesso <mensagem_sucesso_2>
+		E listará os erps cadastrados 					
 		
+
 Cenario: Realizar consulta de erps cadastrados - Perfil Analista de Contas a Pagar
-		E meu perfil seja Analista de Contas a Pagar
-		E eu esteja na area de gestao de erps
-		Quando eu clicar na lista de erps
-		Entao verei todos os erps cadastrados
-		
+		E tenha as configurações de Header <config_header>
+		E tenha perfil Analista de Contas a Pagar
+		Quando eu solicitar a lista de erps através do método <método_get>
+		E resgatar o token <token>
+		Entao retornará o status <codigo_status>
+		E exibirá a mensagem de sucesso <mensagem_sucesso_2>
+		E listará os erps cadastrados 
+
+
 Cenario: Realizar consulta de erps cadastrados - Perfil Aprovador
-		E meu perfil seja Aprovador
-		E eu esteja na area de gestao de erps
-		Quando eu clicar na lista de erps
-		Entao verei todos os erps cadastrados		
+		E tenha as configurações de Header <config_header>
+		E tenha perfil Aprovador
+		Quando eu solicitar a lista de erps através do método <método_get>
+		E resgatar o token <token>
+		Entao retornará o status <codigo_status>
+		E exibirá a mensagem de sucesso <mensagem_sucesso_2>
+		E listará os erps cadastrados 
+	
