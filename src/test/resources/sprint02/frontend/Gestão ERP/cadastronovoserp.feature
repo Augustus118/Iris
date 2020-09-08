@@ -51,23 +51,43 @@ Cenario: Realizar cadastro de erp - Nao preenchimento ID
 		Entao verei a mensagem de erro <mensagem_erro_A>
 		E meu cadastro nao estara logado na base de dados
 
-Cenario: Realizar cadastro de erp - Nao preenchimento Descricao
+Cenario: Realizar cadastro de erp - Nao preenchimento Identificacao
 		E meu perfil seja Administrador
 		E esteja na secao Gestao erp
 		Quando eu preencher todos os campos disponiveis na tela
-		E nao preencher o campo Descricao
+		E nao preencher o campo Identificacao
 		E concluir o cadastro
 		Entao verei a mensagem de erro <mensagem_erro_B>
 		E meu cadastro nao estara logado na base de dados
+		
 
-Cenario: Realizar cadastro de erp - Nao preenchimento FileSystems Integracao
+Cenario: Realizar cadastro de erp - Nao preenchimento Erro Diretório
 		E meu perfil seja Administrador
 		E esteja na secao Gestao erp
 		Quando eu preencher todos os campos disponiveis na tela
-		E nao preencher o campo FileSystems Integracao
+		E nao preencher o campo Erro Diretório
 		E concluir o cadastro
-		Entao verei a mensagem de erro <mensagem_erro_C>
+		Entao verei a mensagem de erro <mensagem_erro_C1>
 		E meu cadastro nao estara logado na base de dados
+		
+Cenario: Realizar cadastro de erp - Nao preenchimento Origem Diretório
+		E meu perfil seja Administrador
+		E esteja na secao Gestao erp
+		Quando eu preencher todos os campos disponiveis na tela
+		E nao preencher o campo Origem Diretório
+		E concluir o cadastro
+		Entao verei a mensagem de erro <mensagem_erro_C2>
+		E meu cadastro nao estara logado na base de dados
+		
+Cenario: Realizar cadastro de erp - Nao preenchimento Destino Diretório
+		E meu perfil seja Administrador
+		E esteja na secao Gestao erp
+		Quando eu preencher todos os campos disponiveis na tela
+		E nao preencher o campo Destino Diretório
+		E concluir o cadastro
+		Entao verei a mensagem de erro <mensagem_erro_C3>
+		E meu cadastro nao estara logado na base de dados			
+			
 
 Cenario: Realizar cadastro de erp - Nao preenchimento Data Inicio
 		E meu perfil seja Administrador
