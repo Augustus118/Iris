@@ -54,7 +54,7 @@ Cenario: Realizar cadastro de erp - Nao preenchimento Destino Diretório
 		E nao preencher o campo Destino Diretório
 		E concluir o cadastro
 		Entao verei a mensagem de erro <mensagem_erro_C3>
-		E meu cadastro nao estara logado na base de dados			
+		 E meu cadastro nao estara logado na base de dados			
 			
 
 
