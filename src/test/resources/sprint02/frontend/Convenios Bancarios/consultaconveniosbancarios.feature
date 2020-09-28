@@ -39,4 +39,4 @@ Cenario: Realizar cadastro de Convenio Bancario - Gestao
 		E meu perfil seja Gestao
 		E esteja na secao cadastro de convenio
 		Quando eu inserir dados para a busca
-		Entao verei o resultado da busca
+		 Entao verei o resultado da busca
